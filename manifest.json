@@ -1,0 +1,16 @@
+{
+  "name": "Local LLM Translator",
+  "id": "1581036031088183178",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html",
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": ["none"],
+    "devAllowedDomains": ["http://localhost:11434","http://localhost:1234"]
+  },
+  "editorType": [
+    "figma",
+    "figjam"
+  ]
+}
