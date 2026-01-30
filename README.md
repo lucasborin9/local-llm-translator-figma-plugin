@@ -14,3 +14,6 @@ You can use **LM Studio or Ollama** to connect Figma to your favorite Local LLM 
 - Uses **Gemma2-9B as default model**, as it is lightweight and has the best default prompt adherence
 
 **Don't forget to enable CORS in Ollama (`OLLAMA_ORIGINS=* ollama serve`) or [LM Studio](https://lmstudio.ai/docs/developer/core/server/settings), or the plugin will not work as Figma always passes the origin as null, which both APIs don't support.**
+
+### How to load it in Figma:
+Go to "Plugins > Development > Import plugin from manifest..." and select the manifest.json file.
